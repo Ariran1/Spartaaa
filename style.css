@@ -23,6 +23,13 @@
 	display: inline-block;
 	padding: 0 20px;
 }
+
+.thisIsSpatraaa ul li a svg:hover .bBhsdeHEq{
+	fill:red !important;
+}
+.thisIsSpatraaa ul li a svg:hover .MLmkmKMK{
+	fill:#fff !important;
+}
 .thisIsSpatraaa__shirts--desktop,
 .thisIsSpatraaa__sewatshirts--desktop,
 .thisIsSpatraaa__hoody--desktop {
@@ -45,12 +52,12 @@
 @media (max-width:1000px) {
 	.container__thisIsSpatraaa {
 		background: url(images/thisIsSpatraaa--mobile.jpg) no-repeat center center;
-		height:230px;
+		height:200px;
 	}
 	
 	.thisIsSpatraaa {
 		width: 320px;
-		padding: 167px 0 0;
+		padding: 148px 0 0;
 	}
 	.thisIsSpatraaa ul li a{
 		width: 100px;
