@@ -1,0 +1,71 @@
+.container__thisIsSpatraaa {
+	background: url(images/thisIsSpatraaa.jpg) no-repeat center center;
+	height:260px;
+}
+.thisIsSpatraaa {
+	width: 900px;
+	padding: 180px 0 0;
+	margin: 0 auto;
+	position: relative;
+}
+
+.thisIsSpatraaa ul {
+	text-align: center;
+}
+.thisIsSpatraaa ul li {
+	display: inline-block;
+	text-align: center;
+}
+
+.thisIsSpatraaa ul li a{
+	width: 253px;
+	height: 63px;
+	display: inline-block;
+	padding: 0 20px;
+}
+.thisIsSpatraaa__shirts--desktop,
+.thisIsSpatraaa__sewatshirts--desktop,
+.thisIsSpatraaa__hoody--desktop {
+	display: block;
+}
+
+.thisIsSpatraaa__shirts--mobile,
+.thisIsSpatraaa__sewatshirts--mobile,
+.thisIsSpatraaa__hoody--mobile {
+	display: none;
+}
+
+@media (max-width: 1050px) {
+
+	.container__thisIsSpatraaa {
+		background-size: 1850px 100%;
+	}
+}
+
+@media (max-width:1000px) {
+	.container__thisIsSpatraaa {
+		background: url(images/thisIsSpatraaa--mobile.jpg) no-repeat center center;
+		height:230px;
+	}
+	
+	.thisIsSpatraaa {
+		width: 320px;
+		padding: 167px 0 0;
+	}
+	.thisIsSpatraaa ul li a{
+		width: 100px;
+		height: 43px;
+		padding: 0 1px;
+	}
+	.thisIsSpatraaa__shirts--desktop,
+	.thisIsSpatraaa__sewatshirts--desktop,
+	.thisIsSpatraaa__hoody--desktop {
+		display: none;
+	}
+	
+	.thisIsSpatraaa__shirts--mobile,
+	.thisIsSpatraaa__sewatshirts--mobile,
+	.thisIsSpatraaa__hoody--mobile {
+		display: block;
+	}
+}
